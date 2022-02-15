@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb53fa7a-cc6b-4893-ada3-79ef2d516bfd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HSEProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HSEProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tasks/Location/Tools/Ecology.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tasks/Location/Tools/Ecology.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tasks/Location/Tools/Ecology/Path.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tasks/Location/Tools/Ecology/Path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tasks/Location/Tools/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tasks/Location/Tools/Education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tasks/TasksMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tasks/TasksMenu.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="25BNdLmEGDDdFBJxlioPzfo3IQQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ержан\Desktop\hse-frontend\src\components\Tasks\Location\Tools" />
+      <recent name="C:\Users\Ержан\Desktop\hse-frontend\src\components\Auth" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb53fa7a-cc6b-4893-ada3-79ef2d516bfd" name="Changes" comment="" />
+      <created>1644996609021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644996609021</updated>
+      <workItem from="1644996611991" duration="15538000" />
+      <workItem from="1645034545739" duration="4975000" />
+      <workItem from="1645110153299" duration="4947000" />
+      <workItem from="1645420909569" duration="51538000" />
+      <workItem from="1645514564986" duration="2728000" />
+      <workItem from="1645518604883" duration="675000" />
+      <workItem from="1645535266923" duration="659000" />
+      <workItem from="1645727122415" duration="1147000" />
+      <workItem from="1645771735736" duration="967000" />
+      <workItem from="1645772724808" duration="25992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
