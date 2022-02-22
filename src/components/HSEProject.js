@@ -1,6 +1,8 @@
 import '../assets/style/style.scss';
 import AuthForm from "./Auth/AuthForm";
 import {useSelector} from "react-redux";
+import Header from "./Header/Header";
+import Homepage from "./Homepage";
 
 const HSEProject = () => {
     /*If not authorized, then start "AuthForm"*/
@@ -8,7 +10,8 @@ const HSEProject = () => {
   if (token){
     return (
         <div>
-            this is HSE
+            <Header />
+            <Homepage />
         </div>
     );
   } else{
@@ -18,7 +21,6 @@ const HSEProject = () => {
         </div>
     )
   }
-
 }
 
 export default HSEProject;
