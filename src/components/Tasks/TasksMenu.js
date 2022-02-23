@@ -10,8 +10,6 @@ const TasksMenu = ({actions, minH, minW}) => {
             // activeClassName='menu__active'
             className='menu__link'
             // if links is active, then change background img
-            style={({isActive}) => (
-                {background: isActive ? `url(${Cosmos}) no-repeat center/cover` : "none"})}
             to={el.action_link}
             key={idx}>
             {`${el.action_title}`}</NavLink>

@@ -82,16 +82,19 @@ button{
   }
 }
 .menu{
-  margin-top: 10px;
+  margin-top: 45px;
   background: #fff;
   &__link{
     position: relative;
     font-size: 17px;
     font-weight: 500;
     margin-right: 5px;
-    padding: 5px;
+    padding: 7px 22px;
     border-radius: 5px;
     color: #28ceeb;
+    &.active {
+      background: #0f2263 no-repeat center/cover;
+    }
   }
   &__active{
     width: 100%;
