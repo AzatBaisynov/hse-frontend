@@ -12,12 +12,12 @@ const Homepage = () => {
         {
             action_link: '/',
             action_title: 'Обучение',
-            action: <Education />
+            action: Education
         },
         {
             action_link: '/Ecology',
             action_title: 'Экология',
-            action: <Ecology />
+            action: Ecology
         }
     ]
     /*Record components params to array of object*/
@@ -25,7 +25,7 @@ const Homepage = () => {
         {
             action_link: '/',
             action_title: 'Персональный портал',
-            action: <PersonalPortal />
+            action: PersonalPortal
         }
     ]
     /*Record components params to array of object*/
@@ -33,7 +33,7 @@ const Homepage = () => {
         {
             action_link: '/',
             action_title: 'Управление процессом',
-            action: <ProcessControl />
+            action: ProcessControl
         }
     ]
 

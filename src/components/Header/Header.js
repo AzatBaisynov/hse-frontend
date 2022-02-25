@@ -1,6 +1,7 @@
 import React from 'react';
 import {logOut} from "../../store/actionCreators/auth";
 import store from "../../store/store";
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     /*Remove token from Redux*/
@@ -18,9 +19,7 @@ const Header = () => {
                                 {/*choice language page*/}
                                 <button className="header__button">Choose page</button>
                                 <div className="header__homepages">
-                                    <a href='#' className='header__link'>TDS Домашняя страница</a>
-                                    <a href='#' className='header__link'>TDS Homepage</a>
-                                    <a href='#' className='header__link'>TDS 工作台</a>
+                                    <a href='#' className='header__link'>HSE Домашняя страница</a>
                                 </div>
                             </div>
                             <div className="header__dropdown">
@@ -35,7 +34,7 @@ const Header = () => {
                         </nav>
                     </div>
                     <div className="header__home">
-                        <a href="#">HSE Домашняя страница</a>
+                        <NavLink to="/">HSE Домашняя страница</NavLink>
                     </div>
                 </div>
             </header>

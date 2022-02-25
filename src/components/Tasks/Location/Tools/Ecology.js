@@ -9,11 +9,14 @@ import projectEm from '../../../../assets/image/element/icons/ecology/projectEm.
 import projectOVOS from '../../../../assets/image/element/icons/ecology/projectOVOS.svg'
 import security from '../../../../assets/image/element/icons/ecology/securityObj.svg'
 import programs from '../../../../assets/image/element/icons/ecology/program.svg'
-import {NavLink} from "react-router-dom";
+import EmissionsDischargesInitialData from "./Ecology/EmissionsDischargesInitialData";
+import {Link, NavLink} from "react-router-dom";
+import Path from "./Ecology/Path";
+import EmissionsEffluentsEmissionCalculations from "./Ecology/EmissionsEffluentsEmissionCalculations";
 
 /*Change title's width*/
 const cutWidth = (title) => {
-    if (title.length > 35){
+    if (title.length > 35) {
         return '244px'
     }
 }
@@ -21,12 +24,12 @@ const cutWidth = (title) => {
 const Ecology = () => {
     const ecology = [
         {
-            link: '/',
+            link: '/EmissionsDischargesInitialData',
             img: gas,
             title: "Выбросы/сбросы - Исходные данные"
         },
         {
-            link: '/',
+            link: '/EmissionsEffluentsEmissionCalculations',
             img: payment,
             title: "Выбросы/сбросы - Расчеты выбросов"
         },
@@ -78,12 +81,20 @@ const Ecology = () => {
                     {/*Draws apps across map*/}
                     {
                         ecology.map((el, idx) =>
-                            <NavLink to='#' className='tools__link'>
-                                <div className="tools__img">
-                                    <img src={el.img} alt={el.title}/>
-                                </div>
-                                <span className="tools__title" style={{width: cutWidth(el.title)}}>{el.title}</span>
-                            </NavLink>
+                                <a href={el.link} className='tools__link'>
+                                    <div className="tools__img">
+                                        <img src={el.img} alt={el.title}/>
+                                    </div>
+                                    <span className="tools__title"
+                                          style={{width: cutWidth(el.title)}}>{el.title}</span>
+                                </a>
+                            // <NavLink to='/EmissionsEffluentsEmissionCalculations' >
+                            //     <Path
+                            //         key={idx}
+                            //         img={img}
+                            //         title={title}
+                            //     />
+                            // </NavLink>
                         )
                     }
                 </nav>

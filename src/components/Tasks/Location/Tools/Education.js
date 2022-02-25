@@ -49,7 +49,7 @@ const Education = () => {
                    {/*Draws apps across map*/}
                    {
                        education.map((el, idx) =>
-                           <NavLink to='#' className='tools__link'>
+                           <NavLink to={el.link} className='tools__link'>
                                <div className="tools__img">
                                    <img src={el.img} alt={el.title}/>
                                </div>
