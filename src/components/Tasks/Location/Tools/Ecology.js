@@ -9,11 +9,6 @@ import projectEm from '../../../../assets/image/element/icons/ecology/projectEm.
 import projectOVOS from '../../../../assets/image/element/icons/ecology/projectOVOS.svg'
 import security from '../../../../assets/image/element/icons/ecology/securityObj.svg'
 import programs from '../../../../assets/image/element/icons/ecology/program.svg'
-import EmissionsDischargesInitialData from "./Ecology/EmissionsDischargesInitialData";
-import {Link, NavLink} from "react-router-dom";
-import Path from "./Ecology/Path";
-import EmissionsEffluentsEmissionCalculations from "./Ecology/EmissionsEffluentsEmissionCalculations";
-
 /*Change title's width*/
 const cutWidth = (title) => {
     if (title.length > 35) {
@@ -88,13 +83,6 @@ const Ecology = () => {
                                     <span className="tools__title"
                                           style={{width: cutWidth(el.title)}}>{el.title}</span>
                                 </a>
-                            // <NavLink to='/EmissionsEffluentsEmissionCalculations' >
-                            //     <Path
-                            //         key={idx}
-                            //         img={img}
-                            //         title={title}
-                            //     />
-                            // </NavLink>
                         )
                     }
                 </nav>
