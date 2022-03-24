@@ -19,7 +19,7 @@ const cutWidth = (title) => {
 const Ecology = () => {
     const ecology = [
         {
-            link: '/EmissionsDischargesInitialData',
+            link: '/InitialDataDischarge',
             img: gas,
             title: "Выбросы/сбросы - Исходные данные"
         },

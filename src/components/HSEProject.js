@@ -6,7 +6,8 @@ import Homepage from "./Homepage";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import EmissionsEffluentsEmissionCalculations
     from "./Tasks/Location/Tools/Ecology/EmissionsEffluentsEmissionCalculations";
-import EmissionsDischargesInitialData from "./Tasks/Location/Tools/Ecology/EmissionsDischargesInitialData";
+import EmissionsDischargesInitialData from "./Tasks/Location/Tools/Ecology/Discharge/DischargeData/EmissionsDischargesInitialData";
+import InitialDataDischarge from "./Tasks/Location/Tools/Ecology/Discharge/InitialDataDischarge";
 
 const HSEProject = () => {
     /*If not authorized, then start "AuthForm"*/
@@ -18,7 +19,7 @@ const HSEProject = () => {
                   <Header/>
                   <Switch>
                       <Route exact path='/' component={Homepage}/>
-                      <Route exact path='/EmissionsDischargesInitialData' component={EmissionsDischargesInitialData}/>
+                      <Route exact path='/InitialDataDischarge' component={InitialDataDischarge}/>
                   </Switch>
               </Router>
           </div>
