@@ -1,6 +1,6 @@
 import React from 'react';
 import {MemoryRouter, NavLink, Route, Routes, Switch} from "react-router-dom";
-import EmissionsDischargesInitialData from "./Location/Tools/Ecology/EmissionsDischargesInitialData";
+import EmissionsDischargesInitialData from "./Location/Tools/Ecology/Discharge/DischargeData/EmissionsDischargesInitialData";
 
 const TasksMenu = ({actions, minH, minW}) => {
 
