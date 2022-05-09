@@ -2,8 +2,8 @@ import React from 'react';
 import Education from "./Tasks/Location/Tools/Education";
 import Ecology from "./Tasks/Location/Tools/Ecology";
 import TasksMenu from "./Tasks/TasksMenu";
-import PersonalPortal from "./Tasks/Location/PersonalPortal/PersonalPortal";
-import ProcessControl from "./Tasks/Location/ProcessControl/ProcessControl";
+import PersonalPortal from "./Tasks/Location/personalPortal/PersonalPortal";
+import ProcessControl from "./Tasks/Location/processControl/ProcessControl";
 
 const Homepage = () => {
 

@@ -1,0 +1,285 @@
+.battery-charge{
+  &__main-title{
+    text-align: center;
+  }
+  &__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  &__link{
+    position: relative;
+    font-size: 24px;
+    color: #0924b1;
+    line-height: 20px;
+    padding: 5px;
+    &.active{
+      color: #000c56;
+      &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -5px;
+        background: #0f2263;
+      }
+    }
+    &:hover{
+      transition: 0.4s;
+      color: #000c56;
+      &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -5px;
+        background: #0f2263;
+      }
+    }
+    &.battery-charge__link_active{
+      background: #5765bb;
+    }
+  }
+  &__block{
+    margin-top: 50px;
+    grid-template-columns: 3fr 2fr 4fr 10fr;
+
+  }
+  &__sub_height75{
+    height: 75px;
+  }
+  &__sub-value{
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+    background: #d7dcdc14;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+  }
+  &__title-value{
+    font-size: 16px;
+    line-height: 26px;
+    height: 152px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #d7dcdcab;
+    border-bottom: 1px solid;
+  }
+  &__first{
+    height: 150px;
+  }
+  &__second{
+    height: 100px;
+  }
+  &__third{
+    height: 100px;
+  }
+  &__fourth{
+    height: 250px;
+  }
+  &__name-production, &__pollution-source-number, &__name-source-selection{
+    border: 1px solid #000;
+    border-top: 2px solid #000;
+  }
+  &__annual-limit{
+    &-brands{
+      border: 1px solid #000;
+      background: #d7dcdcab;
+    }
+    &_sub{
+      text-align: center;
+      height: 89px;
+      line-height: 18px;
+      font-size: 14px;
+      border: 1px solid #000;
+      background: #d7dcdcab;
+      padding: 2px;
+    }
+    &_unit{
+      text-align: center;
+      line-height: 20px;
+      font-size: 17px;
+      border: 1px solid #000;
+      background: #d7dcdcab;
+    }
+    &-title{
+      text-align: center;
+      font-size: 20px;
+      line-height: 40px;
+      border: 1px solid #000;
+      background: #d7dcdcab;
+      text-transform: uppercase;
+    }
+    &-bot{
+      grid-template-columns: 4fr 2fr 2fr 2fr;
+      height: 111px;
+    }
+    &_low{
+      grid-template-columns: 4fr 2fr 2fr 2fr;
+      color: red;
+      &-first, &-second, &-third, &-fourth{
+        border: 1px solid #000;
+      }
+    }
+  }
+
+}
+.dischargeForm{
+  &__form{
+    display: flex;
+    align-items: start;
+  }
+  &__date{
+    margin-right: 50px;
+    width: 149px;
+    height: 40px;
+    border-radius: 5px;
+    color: #4688de;
+    font-size: 20px;
+  }
+  &__send-form{
+    width: 240px;
+    height: 58px;
+    background: #a3a3a3c9;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+  }
+  &__equipment-time{
+    display: flex;
+  }
+  &__month{
+    &-input{
+      border-bottom: 1px solid #000;
+      font-size: 19px;
+      font-weight: 500;
+      color: blue;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      background: aliceblue;
+    }
+  }
+  &__work{
+    &-time{
+      display: flex;
+      flex-direction: column;
+    }
+    &-inputs{
+      display: flex;
+      flex-direction: column;
+    }
+    &-input{
+      height: 30px;
+      width: 100px;
+      border: none;
+      background: #f7f7f78a;
+      font-size: 15px;
+      padding: 16px;
+    }
+  }
+  &__send-button{
+    display: flex;
+    margin-top: 50px;
+    justify-content: end;
+  }
+}
+.dischargeForm .battery-charge__annual-limit-bot{
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.dischargeForm .battery-charge__annual-limit_low{
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.quarterReport{
+  &__bot-line{
+    display: block;
+    height: 100px;
+    border-bottom: 1px solid #000;
+  }
+  &__title{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    color: blueviolet;
+    font-size: 30px;
+  }
+}
+.quarterReport .battery-charge__annual-limit-bot{
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.quarterReport .battery-charge__annual-limit_low{
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.quarterReport .dischargeForm__month-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yearReport{
+  &__flex{
+    display: flex;
+    margin-top: 50px;
+  }
+  &_width-160{
+    width: 160px;
+  }
+  &__batteries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  }
+  &__number-quarter {
+    font-size: 16px;
+    line-height: 26px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #eaeaea;
+    border-bottom: 1px solid;
+  }
+  &__sub-value{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+  }
+  &__first-quarter{
+    background: #f2f6ff73;
+  }
+  &__second-quarter{
+    background: #f2f6ff73;
+  }
+  &__third-quarter{
+    background: #f2f6ff73;
+  }
+  &__fourth-quarter{
+    background: #f2f6ff73;
+  }
+  &__year{
+    background: rgba(218, 215, 215, 0.16);
+  }
+}
+.yearReport .battery-charge__sub-value{
+  font-size: 13px;
+}
+.yearReport .battery-charge__title-value{
+  font-size: 15px;
+}
+
